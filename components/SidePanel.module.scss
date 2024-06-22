@@ -1,0 +1,23 @@
+.sidePanel {
+  padding: 1rem;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item {
+  padding: 8px;
+  text-align: center;
+  background-color: #ddd;
+  margin-bottom: 5px;
+}
+
+.item:hover {
+  background-color: #ccc;
+}
