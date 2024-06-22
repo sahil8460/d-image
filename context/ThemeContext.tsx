@@ -34,7 +34,7 @@ const darkTheme: Theme = {
 
 export const ThemeContext = createContext<ThemeContextType>({ theme: lightTheme, toggleTheme: () => {} });
 
-export const ThemeProvider: React.FC = ({ children }: any) => {
+export const ThemeProvider = ({ children }: any) => {
   const [theme, setTheme] = useState<Theme>(lightTheme);
 
   const toggleTheme = () => {
