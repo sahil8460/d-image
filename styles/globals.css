@@ -22,6 +22,18 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
+.react-ios-time-picker-popup {
+  align-items: center !important;
+}
+
+.react-ios-time-picker {
+  margin-bottom: 0 !important;
+}
+
+.react-ios-time-picker-input {
+  width: 65px !important;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
